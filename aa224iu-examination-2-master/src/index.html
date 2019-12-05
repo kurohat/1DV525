@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Belleza|Dancing+Script&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/treeColumn.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <!--3 collum-->
+
+        <div class="column-left">
+            <!--left -->
+
+
+        </div>
+
+        <div class="column-middle">
+            <!--middle-->
+            <header>
+                <p>TIC TOC TIC TOC</p>
+                <p id="timer"></p>
+            </header>
+            <div id="start">
+                <h1>Wellcome to 1DV525 Quiz</h1>
+                <h2>Something to know before start the game!</h2>
+                <p>You will have 20 sec to answer each question</p>
+                <p>The timer will appear on the top of the page. TIC TOK TIC TOK</p>
+                <p>IF THE TIME IS OUT ==> GAME OVER DUDE</p>
+                <p>High score board will appear will you compelte all question, so be fast! Only top 5 player will be shows on the board</p>
+                <p>WHAT ARE YOU WAITING FOR ? Enter your name and press start</p>
+                <input class="name" type="text" placeholder="Enter your name">
+                <button>Start</button>
+            </div>
+
+            <div id="question">
+                <h1></h1>
+                <br>
+                <div id="answer-input">
+                    <input class="answer" type="text" placeholder="Enter your answer">
+                </div>
+                <div id="answer-choice">
+                    <form id="alternative">
+                    </form>
+                </div>
+                <br>
+                <button>OK</button>
+            </div>
+
+            <div id="gameover">
+                <h1>GAME OVER</h1>
+                <button>try again</button>
+            </div>
+
+            <div id="highscore">
+                <h1>YOU WIN</h1>
+                <h1>TOP 5 PLAYER</h1>
+            </div>
+        </div>
+
+        <div class="column-right">
+            <!--right -->
+
+        </div>
+
+    </div>
+    <script nomodule src="build.js"></script>
+</body>
+
+</html>

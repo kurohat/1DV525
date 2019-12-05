@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>PWD</title>
+    <meta name="description" content="">
+    <script type="module" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="ui labeled icon menu">
+            <div class="ui simple dropdown">
+                <a class="item">
+                    <i class="gamepad icon"></i>
+                    Memory Game
+                </a>
+                <div id="dropdown" class="menu">
+                    <a id="game2x2" class="item">2 x 2</a>
+                    <a id="game2x4" class="item">2 x 4</a>
+                    <a id="game4x4" class="item">4 x 4</a>
+                </div>
+            </div>
+
+            <div id="openChat" class="item"><i id="openChat" class="comments icon"></i>Chat</div>
+
+            <div id="openNote" class="item"><i class="sticky note outline icon"></i>PostIT</div>
+        </div>
+    </nav>
+
+    <desktop>
+    </desktop>
+
+    <template id="postIT">
+        <div id="postITApp" draggable="true" class="ui card">
+            <div id="postITHeader" class="content center">
+                <i id="close" class="close icon right floated"></i>
+                <i class="ui medium header center floated">TO DO?</i>
+            </div>
+            <div id="postITContent" class="ui cards">
+
+            </div>
+            <div id="postITFooter" class="content center">
+                <div id="form" class="ui dimmer">
+                    <div class="ui form">
+                        <label>Topic</label>
+                        <div class="field">
+                            <input id="topic" type="text" placeholder="What to do?">
+                        </div>
+                        <label>DATE</label>
+                        <div class="field">
+                            <input id="date" type="text" placeholder="date/month/year">
+                        </div>
+                        <div class="field">
+                            <label>Description</label>
+                            <textarea id="des" placeholder="more info about it"></textarea>
+                        </div>
+                    </div>
+                    <button id="addNote" class="ui button"><i class="calendar plus outline icon"></i>Done</button>
+                </div>
+                <div id="showAdd">
+                    <button class="ui button"><i class="calendar plus outline icon"></i>Add new Event</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="todoCard">
+        <div id="eventCard" class="card">
+            <div class="content">
+                <div class="header">
+                </div>
+                <div class="meta">
+                    date
+                </div>
+                <div class="description">
+                    bla bla bla
+                </div>
+                <div id="deleteCard"class="ui button right floated"><i class="check circle outline icon"></i>DONE</div>
+            </div>
+        </div>
+
+    </template>
+
+    <template id="memoryGame">
+        <div id="memoryApp" draggable="true" class="ui card">
+            <!--header use for drag and close change rows and colums-->
+            <div id="memoryHeader" class="content center">
+                <i id="close" class="close icon right floated"></i>
+                <i class="center floated">memory game</i>
+            </div>
+            <!--Game conntent-->
+            <div id="memoryContent" class="content center">
+                <div id="win" class="hide"><i></i></div>
+                <div id="gameOver" class="hide">GAME OVER</div>
+                <div id="bricks"></div>
+            </div>
+            <!--footer show timer-->
+            <div id="memoryFooter" class="content center">
+                <i id="tries" class="left floated"></i>
+                <i id="timer" class="right floated"><i class="clock icon"></i></i>
+            </div>
+        </div>
+    </template>
+
+    <template id="cards">
+        <a href="#"><img class="brick" src="image/0.png" alt="a memory brick" height="60" width="60"></a>
+    </template>
+
+    <template id="chat">
+        <div id="chatApp" draggable="true" class="ui card">
+            <!--header use for drag and close change rows and colums-->
+            <div id="chatHeader" class="content center">
+                <i id="close" class="close icon right floated"></i>
+                <i class="center floated">LNU CHAT</i>
+            </div>
+            <!--Game conntent-->
+            <div id="chatContent" class="content center">
+                <div id="chatSetting">
+                    <div class="ui input">
+                        <i class='user icon'></i>
+                        <input id='userToAdd' type='text' placeholder='Add a username'>
+                    </div>
+                    <div>
+                        <button id="addUser" class="ui button">connect to server</button>
+                    </div>
+                </div>
+            </div>
+            <!--footer show timer-->
+            <div id="chatFooter" class="content center">
+                <textarea placeholder="Type a message..." id="textArea"></textarea>
+                <div class="ui simple dropdown ">
+                    <i id="emoji" class="smile outline icon big right floated"></i>
+                    <div id="showEmoji" class="menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </template>
+
+    <template id="message">
+        <div class="comment">
+            <div id="messageBox" class="content">
+                <i id="userName" class="left floated"></i>
+                <i id="textMessage" class="right floated"></i>
+                <br>
+            </div>
+        </div>
+    </template>
+
+    <script nomodule src="build.js"></script>
+</body>
+
+</html>

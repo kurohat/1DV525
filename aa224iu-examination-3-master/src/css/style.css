@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.hide {
+    visibility: hidden;
+}
+
+.center {
+    text-align: center;
+}
+#chatContent, #showEmoji {
+    overflow:scroll;
+    height: 200px;
+}
+
+#postITContent {
+    overflow:scroll;
+}
+
+#userName, #gameOver, #win, #date {
+    color: darkred;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.ui.card {
+    position: absolute;
+}
+

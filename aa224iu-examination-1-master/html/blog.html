@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='../css/treeColumn.css'>
+    <link rel='stylesheet' href='../css/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Belleza|Dancing+Script&display=swap" rel="stylesheet">
+    <title>KuroHat - Blog</title>
+    <!--open graph-->
+    <meta property="og:title" content="Amata's Blog">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Amata's blog, Wanna learn more about what I have been up to? CLICK!">
+    <meta property="og:url" content="https://1dv525.github.io/aa224iu-examination-1/html/blog.html">
+    <meta property="og:image" content="https://1dv525.github.io/aa224iu-examination-1/images/binary.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+</head>
+
+<body>
+    <div class="row">
+        <!--3 collum-->
+
+        <div class="column left">
+            <!--left -->
+
+        </div>
+
+        <div class="column middle">
+            <!--middle-->
+            <header>
+                <h1><em>Blog</em></h1>
+            </header>
+
+            <hr>
+            <section>
+                <article>
+                    <h2>What is Robots.txt file?</h2>
+                    <details>
+                        <summary>The robots.txt file is a simple text file placed on your web server which tells
+                            webcrawlers (Googlebot) if they should access a file or not. </summary>
+                        <br><br>
+                        I have a robots.txt at my root web directory (https://1dv525.github.io/aa224iu-examination-1). I
+                        block Googlebot to access to contact.html as the assignment required. Also, I chose to block the
+                        bot to access my pictures by <mark>Disallow: /images/</mark>
+                        , which mean block Google bot to access images directory + all children file/directory that
+                        exits inside the"images" directory Why? because why not? It is my images anyway :P
+                        <br><br>
+                        <strong>But wait</strong>, Googlebot is not the only webcrawler that exits on the internet.
+                        Then I decided to create another group and as a <mark>User-agent: *</mark>, which mean block all
+                        other webcrawler to access images directory too
+                    </details>
+                </article>
+
+                <article>
+                    <h2>What is humans.txt and how have you configure it for your site?</h2>
+                    <details>
+                        <summary>A text file that contains information about people that have been contribute to build
+                            the website</summary>
+                        Same case as robots.txt, humans.txt is stored at my web directory. Not much to say, since it is
+                        only me that build this website up, using my clean+simple design. Check it out if you wanna know
+                        more about me <a href="https://1dv525.github.io/aa224iu-examination-1/humans.txt">here</a>
+                    </details>
+                </article>
+
+                <article>
+                    <h2>What is Open Graph and how do you make use of it?</h2>
+                    <details>
+                        <summary>Open Graph is a protocol that created by Facebook that aim for sharing information
+                            about the website in a simple way by using metadata type</summary>
+                        I'm using all basic metadata that is require for this assignment. Such as, title, type, url and
+                        image. I implemented OpenGraph to all pages with different content on each page. So check it
+                        out! share all my pages !!!
+                    </details>
+                </article>
+
+                <article>
+                    <h2>Why is it important to seperate the layout and design (css) from content (html)?</h2>
+                    <details>
+                        <summary>my answer is WHY DO YOU WANT TO MESS UP YOUR CODE and give yourself a headache?
+                        </summary>
+                        Just kidding tho, one important benifit is <strong>NO code duplication</strong>. Assume that you
+                        have an h1 tag
+                        that uses the same style in each page. If you have the css and html in the save file means that
+                        you have to rewrite the same css all over again. What if you have 100 pages? DAMN !! you will
+                        need to change it in all 100 pages just because you might want to change from front-color red to
+                        blue, <strong>soooo painful</strong>.
+                        <br><br>
+                        there are so many reason, it will take me 5 pages to write about it. So you go Google it. It is
+                        a hot topic out there.
+                    </details>
+                </article>
+
+
+                <article>
+                    <h2>IOS users have been hack for years by visiting a hecked website</h2>
+                    <details>
+                        <summary>Hacker use vulnerability in the Safari web-browser to gain root access</summary>
+                        <br><br>
+                        Early this year, a Google researcher explained how some of the IOS users might have been hack by
+                        just visit a hacked site.
+                        Hacker uses the vulnerability in the Safari web-browser to gain root access to their devices.
+                        <br><br>
+                        The iPhone exploits were used to deploy and implant (spyware) which are design to steal files
+                        such as <mark>iMessages, photos, and live GPS location data of users, and upload them to an
+                            external server every 60 seconds</mark>. The implant also had access to the victim's
+                        device's keychain data containing credentials, authentication tokens, and certificates used on
+                        and by the device.
+                        <br><br>
+                        <em>"The best part"</em> is the implant will automatically wipe off from an infected iPhone upon
+                        rebooting and leaving no trace of itself. The implant will be reinstalled only if the user
+                        visiting the hacked site again. <br>
+                        <a href="https://thehackernews.com/2019/08/hacking-iphone-ios-exploits.html">For more info</a>
+                    </details>
+                </article>
+
+                <article>
+                    <h2>IT security incident.</h2>
+                    <details>
+                        <summary>Some stream website use my laptop to mine cryptocurrency</summary>
+                        <br><br>
+                        Game of Thrones, a famous series that everyone talks about it. I kinda like it because it is one
+                        of the few series that can keep surprising me the whole time. Early this was its last season, I
+                        was so hype since it would be the end om the series (at least for tv-show version). Also, I HATE
+                        when I excedent sees a spoil on social media. To avoid this trouble, I tried to watch it as soon
+                        as I could.
+                        <br><br>
+                        At some point, I end up watching it on a website that I haven't visited before. The website
+                        looks decent, the quality of the series was really good. So I thought "Why not? I need to watch
+                        it before someone spoil me anyway". During the epic fight between human and the dead, my laptop
+                        started to make to much noise. That noise that you usually hear when your computer is working at
+                        high capacity. "What the... ?" I paused the series and try to find the cause of it. I remember
+                        that I was so pissed that I needed to pause the series in the middle of the great fight. I
+                        checked my task manager, my CPU was working at high capacity. "But how?" I asked myself. I don't
+                        have anything running more than Firefox.
+                        <br><br>
+                        "Never mind let's watch it first and find out what is going on later", said the voices in my
+                        head. Yes, I did listen to that stupid voice. It always gets me to do stupid stuff. So I watched
+                        the whole epic fight with the fan noise in the background, which tires to cool my CPU down.
+                        <br><br>
+                        I did some research after I finish that episode (GG Arya heart). The website has been using my
+                        CPU to "mine" a cryptocurrency. But after the incident, I have been using "No coin" to block all
+                        mining script. (NoScript couldn't help me since I need to inactivate it when I want to watch the
+                        series).
+                    </details>
+                </article>
+
+                <p><strong>NOTE:</strong> The details tag is not supported in Internet Explorer.</p>
+            </section>
+            <br>
+            <hr class="down">
+            <nav>
+                <a href="/aa224iu-examination-1/index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <div class="column right">
+            <!--right -->
+
+        </div>
+    </div>
+</body>
+
+</html>

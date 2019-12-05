@@ -1,0 +1,32 @@
+/* PROJECT */
+
+	Site Name:   KUROHAT
+	Site URL:    https://1dv525.github.io/aa224iu-examination-1/
+	Created:     2019/08/09
+	Standards:   HTML5, CSS3
+	Web Design:  Amata Anantaprayoon aka cheab, kurohat, gu2rks
+
+
+/* AUTHOR */
+
+	Name:        Amata Anantaprayoon
+	Nickname:    Cheab, kurohat, gu2rks
+	Title:       BS CS network scurity student
+	Location:    Växjö Sweden
+	Site:        https://1dv525.github.io/aa224iu-examination-1/
+	Blog:        https://1dv525.github.io/aa224iu-examination-1/html/blog.html
+	Contact:     https://1dv525.github.io/aa224iu-examination-1/html/contact.html
+	Donation:    switch me some cash?
+
+/* SOCIAL */
+
+    About.me:    https://1dv525.github.io/aa224iu-examination-1/html/about.html
+    Twitter:     https://twitter.com/GU2RKS
+    Github:      https://github.com/gu2rks
+    Facebook:    https://www.facebook.com/cheab.amata.9
+
+/* THANKS */
+
+	Jeff Starr for a perfect humans.txt template 
+    Fartun Ali Jama that helped me fight with CSS utill it works the way it suppose too.
+    Fartun's Github:    https://github.com/FartunJama
